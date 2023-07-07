@@ -47,20 +47,20 @@ Initially 40 items are taken but can be customized based on requirement.
 				2) Phone no. 
 			9.Greeting
 		
-	5) Summary for the staff (owner) is given
+	5) Summary for the staff (owner) is given (Password protected)
 		Total number of customers, total revenue generated is given
 		Total number of feedbacks and overall rating of the mall is given and number of each star given 
+
+  	6) Feedback
+		the user will be asked to rate the mall from 1 to 5
+		the user can write additional information which will be stored in a file named feedback.txt
 	
-	6) Ask if the customer has the shopping mall point system card 
+	7) Points based Shopping card system
 		ask the user if he wants to create an account
 		give points and give hamper on 5 points
 		ask if you want to register in it or deregister from it
 		the user can see his account and his points
 		Points will be added only when user gives his customer id while the totaling is done while placing the order
-		
-	7) Feedback
-		the user will be asked to rate the mall from 1 to 5
-		the user can write additional information which will be stored in a file named feedback.txt
 	
 	8) Display the exit and the greeting messages.
 
