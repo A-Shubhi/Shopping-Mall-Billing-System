@@ -355,8 +355,7 @@ int main()
 				
 				printf("\n\t\t\t Amount to pay: \t %0.2f\n\n",total_bill_money);
 				printf ("\n\t***Thankyou for shoppping*** \n--------------------------------------------------------------\n--------------------------------------------------------------\n\n");
-				bill_num++;
-				bill_line =0;
+				
 				
 			
 				
@@ -387,7 +386,8 @@ int main()
             				fclose(del_file);
 				}
 				
-				else { }
+				bill_num++;
+				bill_line =0;
 				
 				break;
 			}
