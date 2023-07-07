@@ -93,7 +93,7 @@ int main()
 	while(1)
 	{
 		
-		printf("\n\n----------------------------------------------------------\n\t\t WELCOME TO SHUBHI SHOPPING MALL\n\t  ********************************************\n\n1. Shop now - View the items  \n2. Display the offers going on\n3. Place the order\n4. Print the bill\n5. Summary (for the staff) \n6. Customer Review\n7. Shopping Card (Point system) \n8. Exit \n " );
+		printf("\n\n----------------------------------------------------------\n\t\t WELCOME TO SHUBHI SHOPPING MALL\n\t  ********************************************\n\n1. Shop now - View the items  \n2. Display the offers going on\n3. Place the order\n4. Print the bill\n5. Daily Summary (for the staff) \n6. Customer Review\n7. Shopping Card (Point system) \n8. Exit \n " );
 		printf("\n**----------------------------------------------------------------------------------------------------------------------------------------------------------**\n \n");
 		printf("Choose what you want you do : ");
 		int x;
