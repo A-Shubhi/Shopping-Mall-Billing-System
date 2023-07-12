@@ -21,8 +21,6 @@ Initially 40 items are taken but can be customized based on requirement.
 		Display all items
 		Display all available items ( quantity > 0 )
 		Display items in a specified price range
-
-  ![WhatsApp Image 2023-07-08 at 5 10 01 AM](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/b9c36e50-9ea5-4aff-8acf-9850d2c4a8b5)
 ![WhatsApp Image 2023-07-08 at 5 10 03 AM (1)](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/7546c412-392d-4785-bad7-0724465275bf)
 
 	
