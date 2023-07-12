@@ -21,18 +21,26 @@ Initially 40 items are taken but can be customized based on requirement.
 		Display all items
 		Display all available items ( quantity > 0 )
 		Display items in a specified price range
+
+  ![WhatsApp Image 2023-07-08 at 5 10 01 AM](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/b9c36e50-9ea5-4aff-8acf-9850d2c4a8b5)
+![WhatsApp Image 2023-07-08 at 5 10 03 AM (1)](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/7546c412-392d-4785-bad7-0724465275bf)
+
 	
 	2) Display the offers  
+ ![WhatsApp Image 2023-07-08 at 5 10 02 AM](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/ed76d02d-1a42-40dc-91b7-b8809700eb7a)
+
 	
 	3) Place the order
 		the user will give the code of the product and the quantity the user want to buy 
 		the user will be asked the number of polybags needed
 		the mode of payment will be asked and accordingly discount will be provided
 		if the user avail the point card will be asked and in case he has it the number of points he has will be shown 
+  ![WhatsApp Image 2023-07-08 at 5 10 03 AM](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/67fb2333-3c7c-4914-9817-46f449a9cc2a)
+
 		 
 	4) Print the bill
 		the user will be asked if he wants to avail home delivery (free of charge)
-		in case of positive response, the user's address will be stored in a different file named delivery.txt
+		in case of positive response, the user's address will be stored in a different file named **delivery.txt**
 		
 			The bill consists of : 
 			1. Mall name and mall address
@@ -46,22 +54,29 @@ Initially 40 items are taken but can be customized based on requirement.
 				1) Name 
 				2) Phone no. 
 			9.Greeting
-		
+ ![WhatsApp Image 2023-07-08 at 5 10 04 AM (2)](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/3b903a41-0177-442c-8cb0-3b817380bbf1)
+
+
 	5) Summary for the staff (owner) is given (Password protected)
 		Total number of customers, total revenue generated is given
 		Total number of feedbacks and overall rating of the mall is given and number of each star given 
+  ![WhatsApp Image 2023-07-08 at 5 10 05 AM](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/64696220-9237-4dcd-a7d1-2d7c3dfd6c77)
+
 
   	6) Feedback
 		the user will be asked to rate the mall from 1 to 5
-		the user can write additional information which will be stored in a file named feedback.txt
-	
+		the user can write additional information which will be stored in a file named **feedback.txt**
+![WhatsApp Image 2023-07-08 at 5 10 04 AM](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/c57e84ee-60e9-4253-b065-091a1ada3cdd)
+
 	7) Points based Shopping card system
 		ask the user if he wants to create an account
 		give points and give hamper on 5 points
 		ask if you want to register in it or deregister from it
 		the user can see his account and his points
 		Points will be added only when user gives his customer id while the totaling is done while placing the order
-	
+![WhatsApp Image 2023-07-08 at 5 10 05 AM (1)](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/6fe91f89-48ba-4f98-8f40-b10b659b19ee)
+
 	8) Display the exit and the greeting messages.
 
- 
+ ![WhatsApp Image 2023-07-08 at 5 10 05 AM (2)](https://github.com/A-Shubhi/Shopping-Mall-Billing-System/assets/95265187/20780028-43a4-4d67-b2de-025c6ddfa252)
+
