@@ -696,6 +696,8 @@ int delete_cust(int key)
 
 int find_quant(int key)
 {
+	if(key>CAPACITY)return -1;
+	
 	// Apply hash function to find index for given key
 	int hashIndex=hash_func(key);
  
@@ -704,14 +706,13 @@ int find_quant(int key)
 	// Find the node with given key
 	while (arr[hashIndex] != NULL)
 	{
-        	 s = 0;
+        	 
         	// If counter is greater than capacity
         	if (s > CAPACITY)
 		{	
-			break;
-			s++;
+			break;	
 		}
-	 
+	 	s++;
         	// If node found return its value
         	if (arr[hashIndex]->code == key)
 		{
@@ -723,7 +724,7 @@ int find_quant(int key)
 	}
  
     // If not found return -1
-    printf("Key %d does not exists \n",key);
+    //printf("Key %d does not exists \n",key);
     return -1; 
 }
 
@@ -737,13 +738,14 @@ int find_cust(int key)
 	// Find the node with given key
 	while (brr[hashIndex] != NULL)
 	{
-        	 s = 0;
+        	
         	// If counter is greater than capacity
         	if (s > CAPACITY)
 		{	
 			break;
-			s++;
+			
 		}
+		s++;
 	 
         	// If node found return 1
         	if (brr[hashIndex]->user_id == key)
@@ -771,17 +773,17 @@ void find_cust_detail(int key)
 	// Apply hash function to find index for given key
 	int hashIndex=hash_func_cust(key);
  
-	int s = 0;
+	int s = key;
  
 	// Find the node with given key
 	while (brr[hashIndex] != NULL)
 	{
-        	 s = 0;
+        	
         	// If counter is greater than capacity
         	if (s > CAPACITY)
 		{	
 			break;
-			s++;
+			
 		}
 	 
         	// If node found return 1
@@ -803,17 +805,17 @@ int update_point(int key)
 	// Apply hash function to find index for given key
 	int hashIndex=hash_func_cust(key);
  
-	int s = 0;
+	int s = key;
  
 	// Find the node with given key
 	while (brr[hashIndex] != NULL)
 	{
-        	 s = 0;
+        	 
         	// If counter is greater than capacity
         	if (s > CAPACITY)
 		{	
 			break;
-			s++;
+			
 		}
 	 
         	// If node found return 1
